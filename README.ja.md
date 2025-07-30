@@ -1,7 +1,7 @@
 <h1 align="center"> 山崎 直哉のポートフォリオ </h1>
 <h5 align="center"> Development Started - Summer 2025 </h5>
 
-[English](https://github.com/nao-United92/portfolio/README.md) | 日本語</h2>
+[English](https://github.com/nao-United92/portfolio/blob/main/README.md) | 日本語</h2>
 
 <!-- 目次 -->
 <h2 id="table-of-contents"> :book: 目次</h2>
