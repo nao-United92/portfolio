@@ -43,14 +43,14 @@ English | [日本語](https://github.com/nao-United92/portfolio/blob/main/README
 
 <h3>view</h3>
 <ul>
-  <li><b>index.html</b> - Top page design</li>
-  <li><b>header.html</b> - Header component design</li>
-  <li><b>about.html</b> - Introduction design</li>
-  <li><b>blog.html</b> - Blog list design</li>
-  <li><b>blog-post.html</b> - Blog post detail page design</li>
-  <li><b>works.html</b> - Works list design</li>
-  <li><b>works-detail.html</b> - Works detail page design</li>
-  <li><b>contact.html</b> - Contact list design</li>
+  <li><b>index.html</b> - Top page</li>
+  <li><b>header.html</b> - Header page</li>
+  <li><b>about.html</b> - Introduction page</li>
+  <li><b>blog.html</b> - Blog list page</li>
+  <li><b>blog-post.html</b> - Blog post detail page</li>
+  <li><b>works.html</b> - Works list page</li>
+  <li><b>works-detail.html</b> - Works detail page</li>
+  <li><b>contact.html</b> - Contact list page</li>
 </ul>
 
 <h3>static</h3>

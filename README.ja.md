@@ -43,8 +43,8 @@
 
 <h3>view</h3>
 <ul>
-  <li><b>index.html</b> - トップページデザイン</li>
-  <li><b>header.html</b> - ヘッダーコンポーネント</li>
+  <li><b>index.html</b> - トップページ</li>
+  <li><b>header.html</b> - ヘッダーページ</li>
   <li><b>about.html</b> - 自己紹介ページ</li>
   <li><b>blog.html</b> - ブログ一覧ページ</li>
   <li><b>blog-post.html</b> - ブログ詳細ページ</li>
