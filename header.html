@@ -1,0 +1,61 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/>
+<header class="bg-gray-900/50 backdrop-blur-sm fixed top-0 left-0 right-0 z-20">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold hover:text-gray-400"
+      >Naoya Yamasaki</a
+    >
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-4">
+      <a href="about.html" class="hover:text-gray-400">About</a>
+      <a href="blog.html" class="hover:text-gray-400">Blog</a>
+      <a href="works.html" class="hover:text-gray-400">Works</a>
+      <a href="contact.html" class="hover:text-gray-400">Contact</a>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <button id="menu-btn" class="md:hidden block">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7"
+        />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div
+  id="mobile-menu"
+  class="md:hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-10"
+>
+  <div class="flex justify-center items-center h-full">
+    <nav class="flex flex-col items-center space-y-8">
+      <a href="about.html" class="text-3xl hover:text-gray-400 mobile-menu-link"
+        >About</a
+      >
+      <a href="blog.html" class="text-3xl hover:text-gray-400 mobile-menu-link"
+        >Blog</a
+      >
+      <a href="works.html" class="text-3xl hover:text-gray-400 mobile-menu-link"
+        >Works</a
+      >
+      <a
+        href="contact.html"
+        class="text-3xl hover:text-gray-400 mobile-menu-link"
+        >Contact</a
+      >
+    </nav>
+  </div>
+</div>

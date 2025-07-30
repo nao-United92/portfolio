@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About ~ Naoya Yamasaki Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div id="main-content" class="show">
+      <div id="header-placeholder"></div>
+
+      <main id="about" class="pt-10 fade-in">
+        <div class="container mx-auto px-6 pt-8">
+          <h2 class="text-4xl font-bold text-center mb-12 fade-in">About</h2>
+          <section class="p-8 bg-gray-800 rounded-lg shadow-lg">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center w-max">
+                <h2 class="text-2xl font-semibold">Naoya Yamasaki</h2>
+              </div>
+              <div class="flex items-center gap-4">
+                <p class="font-semibold mt-1">Born December 18, 1992</p>
+                <span class="h-6 border-r border-gray-400"></span>
+                <p class="font-semibold mt-1">Software Engineer</p>
+              </div>
+            </div>
+            <hr class="border-b border-gray-600 my-4" />
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold mb-4 text-white">Profile</h3>
+              <div class="flex items-stretch gap-8 mb-4">
+                <div class="flex flex-col gap-4 justify-center">
+                  <img
+                    src="./public/about.jpeg"
+                    alt="Profile Image1"
+                    class="w-[650px] h-[235px] object-cover rounded-lg"
+                  />
+                  <img
+                    src="./public/about2.jpeg"
+                    alt="Profile Image2"
+                    class="w-[650px] h-[235px] object-cover rounded-lg"
+                  />
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                  <ol class="relative border-l-4 border-blue-500 ml-4">
+                    <li class="mb-10 ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >1992</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        愛知県生まれ、名古屋市から少し外れのあま市という田舎育ち。
+                      </p>
+                    </li>
+                    <li class="mb-10 ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >2015</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        4月 ソフトウェアエンジニアとしてキャリア開始。<br />生産管理システムの設計〜製造、運用・保守まで幅広く担当。
+                      </p>
+                    </li>
+                    <li class="mb-10 ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >2018</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        6月 ワーキングホリデーで1年間カナダ・バンクーバーへ。<br />海外生活・英語に浸る日々を送る。
+                      </p>
+                    </li>
+                    <li class="mb-10 ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >2020</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        Web業界へ。EC・会計管理アプリ開発のスタートアップ入社。<br />サブリーダー兼エンジニアとしてフルスタック開発に従事。
+                      </p>
+                    </li>
+                    <li class="mb-10 ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >2023</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        不動産管理アプリ・IoTプラットフォーム開発プロジェクトで設計・バックエンド開発を担当。更なるGrow
+                        Upに奮闘中。
+                      </p>
+                    </li>
+                    <li class="ml-6">
+                      <span
+                        class="absolute -left-7 flex items-center justify-center w-14 h-6 bg-blue-500 rounded-full ring-8 ring-gray-700 text-white font-bold"
+                        >現在</span
+                      >
+                      <p class="text-gray-200 ml-4">
+                        AI駆動開発を絶賛体感中。業務外ではAI・ML系資格学習や個人開発に注力中。
+                      </p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold mb-4 text-white">Hobby</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div
+                  class="flex items-center bg-gray-700 p-3 rounded-lg shadow-md"
+                >
+                  <i class="fas fa-guitar text-xl text-blue-400 mr-3"></i>
+                  <p class="text-gray-200">
+                    ギター：好きな曲を耳コピして弾いたりですが、正直最近はできてない😆
+                  </p>
+                </div>
+                <div
+                  class="flex items-center bg-gray-700 p-3 rounded-lg shadow-md"
+                >
+                  <i class="fas fa-book-open text-xl text-green-400 mr-3"></i>
+                  <p class="text-gray-200">
+                    洋書を読む：日本語の書籍はマンガと技術書系しか読みません😅
+                  </p>
+                </div>
+                <div
+                  class="flex items-center bg-gray-700 p-3 rounded-lg shadow-md"
+                >
+                  <i class="fab fa-youtube text-xl text-red-400 mr-3"></i>
+                  <p class="text-gray-200">
+                    YouTubeサーフィン：KPOPにプチハマりして公式チャンネルコンテンツを見たり、最近は元々好きな声優関連コンテンツを漁ってます🤩
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold mb-4 text-white">Skill Set</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Language -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-sky-500"
+                  >
+                    Language
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >C#: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >VB.NET: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >PHP: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >TypeScript: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >HTML: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >CSS: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >JavaScript: 5年</span
+                    >
+                  </div>
+                </div>
+                <!-- FrameWork -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-emerald-500"
+                  >
+                    FrameWork
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >.NET: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >CodeIgniter: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Laravel: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Vue: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >React: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Node.js: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Nuxt.js: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Next.js: 1年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Hono: 1年</span
+                    >
+                  </div>
+                </div>
+                <!-- DB -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-rose-500"
+                  >
+                    DB
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Oracle: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >MySQL: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >PostgreSQL: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >DynamoDB: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >SQL: 6年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >GraphQL: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Drizzle ORM: 1年</span
+                    >
+                  </div>
+                </div>
+                <!-- Testing -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-amber-500"
+                  >
+                    Testing
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >PHPUnit: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Jest: 2年</span
+                    >
+                  </div>
+                </div>
+                <!-- Management -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-teal-500"
+                  >
+                    Management
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >SubVersion: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Git: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Github・Github Actions: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Wrike: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Jira: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Backlog: 3年</span
+                    >
+                  </div>
+                </div>
+                <!-- Communication -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-indigo-500"
+                  >
+                    Communication
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >ChatWork</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Slack</span
+                    >
+                  </div>
+                </div>
+                <!-- Infrastructure・CDK -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-purple-500"
+                  >
+                    Infrastructure・CDK
+                  </h4>
+                  <div id="accordion-container">
+                    <button
+                      id="accordion-button"
+                      class="w-full flex justify-between items-center bg-gray-700 text-gray-200 px-3 py-2 rounded-full text-sm font-medium focus:outline-none"
+                    >
+                      <span>AWS: 5年</span>
+                      <svg
+                        id="accordion-icon"
+                        class="w-4 h-4 transition-transform transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        ></path>
+                      </svg>
+                    </button>
+                    <div
+                      id="accordion-content"
+                      style="
+                        transition: max-height 0.4s ease-in-out;
+                        max-height: 0px;
+                        overflow: hidden;
+                      "
+                    >
+                      <div
+                        class="mt-2 p-4 bg-gray-700 rounded-lg border border-gray-600"
+                      >
+                        <div class="flex flex-wrap gap-2">
+                          <a
+                            href="https://qiita.com/nao-United92/items/86b913d20b1aec143104#iam%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span
+                              class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                              >IAMロール作成</span
+                            >
+                          </a>
+                          <a
+                            href="https://qiita.com/nao-United92/items/86b913d20b1aec143104#s3%E3%83%90%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span
+                              class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                              >S3バケット作成</span
+                            >
+                          </a>
+                          <a
+                            href="https://qiita.com/nao-United92/items/86b913d20b1aec143104#firehose%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%81%AE%E4%BD%9C%E6%88%90"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span
+                              class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                              >Firehoseストリーム作成
+                            </span>
+                          </a>
+                          <a
+                            href="https://qiita.com/nao-United92/items/86b913d20b1aec143104#api-gateway-api%E3%81%AE%E4%BD%9C%E6%88%90"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span
+                              class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                              >APIGateway API作成</span
+                            >
+                          </a>
+                          <span
+                            class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                            >CloudWatch ログ調査</span
+                          >
+                          <span
+                            class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                            >Lambda ランタイムVerUp：node14 ⇨ 22</span
+                          >
+                          <a
+                            href="https://qiita.com/nao-United92/items/d6f40948c0f702d5179f"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span
+                              class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                              >Amplify CLI操作(pull/codegen/status/push)</span
+                            >
+                          </a>
+                          <span
+                            class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                            >EventBridge スケジューラ作成・バッチ実行</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- SDK -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-orange-500"
+                  >
+                    SDK
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <a
+                      href="https://qiita.com/nao-United92/items/e59e4d5697fb319574c8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span
+                        class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                        >S3オブジェクト取得・保存: @aws-sdk/client-s3</span
+                      >
+                    </a>
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >SQSジョブ送信: @aws-sdk/client-sqs</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >SecretsManager・FCMによるプッシュ通知:
+                      @aws-sdk/client-secrets-manager</span
+                    >
+                  </div>
+                </div>
+                <!-- OS -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-pink-500"
+                  >
+                    OS
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Windows: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Linux: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >macOS: 5年</span
+                    >
+                  </div>
+                </div>
+                <!-- Tools -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-lime-500"
+                  >
+                    Tools
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Devin: 1年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Copilot: 1年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Gemini: 1年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >VSCode: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Cursor: 2年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Sentry</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >Circle CI</span
+                    >
+                    <a
+                      href="https://qiita.com/nao-United92/items/3ba198af65767c9efb64"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span
+                        class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                        >InversifyJS</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <!-- Development Method -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-blue-500"
+                  >
+                    Development Method
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >ウォーターフォール: 5年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >アジャイル: 3年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >MVCモデル: 5年</span
+                    >
+                  </div>
+                </div>
+                <!-- Development Flow -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-yellow-500"
+                  >
+                    Development Flow
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >詳細設計: 4年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >製造・テスト: 6年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >運用・保守: 6年</span
+                    >
+                    <span
+                      class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium"
+                      >リーダー: 2年</span
+                    >
+                  </div>
+                </div>
+                <!-- Certification -->
+                <div class="bg-gray-800 p-4 rounded-lg shadow-inner">
+                  <h4
+                    class="text-lg font-bold text-white px-3 py-1 rounded-full inline-block mb-3 bg-cyan-500"
+                  >
+                    Certification
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    <a
+                      href="https://www.credly.com/badges/01f3a042-e7ae-4e3c-8880-b82d844fc920/public_url"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span
+                        class="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:text-cyan-500"
+                        >AWS Certified Solutions Architect – Associate</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="bg-gray-900 py-4">
+        <div class="container mx-auto px-4 text-center">
+          <p>&copy; 2025 Naoya Yamasaki Portfolio. All Rights Reserved.</p>
+          <div class="flex justify-center space-x-4 mt-4">
+            <a
+              href="https://x.com/s_uvernao"
+              target="_blank"
+              class="text-white hover:text-gray-400 text-2xl"
+              ><i class="fa">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                  />
+                </svg>
+              </i>
+            </a>
+            <a
+              href="https://qiita.com/nao-United92"
+              target="_blank"
+              class="text-white hover:text-gray-400 text-2xl"
+              ><i class="fa"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M3.57 8.343a3.653 3.653 0 0 0-1.376.269a3.585 3.585 0 0 0-1.14.738a3.503 3.503 0 0 0-.773 1.102A3.297 3.297 0 0 0 0 11.814a3.28 3.28 0 0 0 .281 1.357a3.535 3.535 0 0 0 .775 1.107A3.636 3.636 0 0 0 3.6 15.29a3.731 3.731 0 0 0 .987-.13a3.657 3.657 0 0 0 .888-.374l.687.698a.579.579 0 0 0 .824 0a.58.58 0 0 0 0-.817l-.624-.624a3.533 3.533 0 0 0 .613-1.022a3.282 3.282 0 0 0 .226-1.208a3.297 3.297 0 0 0-.282-1.362a3.488 3.488 0 0 0-.775-1.102A3.614 3.614 0 0 0 5 8.612a3.657 3.657 0 0 0-1.398-.27a3.653 3.653 0 0 0-.031 0zm11.306.185v1.484h-.765v1.063h.765v2.142c0 .419.053.761.159 1.028a1.56 1.56 0 0 0 .433.63a1.511 1.511 0 0 0 .643.317a2.676 2.676 0 0 0 .694.086h.853v-1.013h-.736a1.25 1.25 0 0 1-.352-.048a.713.713 0 0 1-.291-.169a.81.81 0 0 1-.2-.324a1.575 1.575 0 0 1-.074-.519v-2.13h1.666v-1.063h-1.66V8.528zM9.4 8.856a.69.69 0 0 0-.69.691a.69.69 0 0 0 .69.69a.69.69 0 0 0 .691-.69a.69.69 0 0 0-.69-.691zm2.771 0a.69.69 0 0 0-.69.691a.69.69 0 0 0 .69.69a.69.69 0 0 0 .691-.69a.69.69 0 0 0-.69-.691zm-8.6.538a2.324 2.324 0 0 1 .03 0a2.35 2.35 0 0 1 .93.187a2.346 2.346 0 0 1 1.264 1.28a2.463 2.463 0 0 1 .186.957a2.444 2.444 0 0 1-.186.957a2.384 2.384 0 0 1-.506.767a2.363 2.363 0 0 1-1.688.698a2.324 2.324 0 0 1-.93-.186a2.376 2.376 0 0 1-.755-.512a2.427 2.427 0 0 1-.699-1.723a2.44 2.44 0 0 1 .699-1.727a2.384 2.384 0 0 1 .756-.511a2.324 2.324 0 0 1 .898-.187zm17.648.773a2.69 2.69 0 0 0-1.02.201a2.49 2.49 0 0 0-.815.552a2.432 2.432 0 0 0-.525.814a2.678 2.678 0 0 0-.186.998a2.644 2.644 0 0 0 .186.997a2.485 2.485 0 0 0 .525.814a2.436 2.436 0 0 0 .815.546a2.697 2.697 0 0 0 1.059.2a2.42 2.42 0 0 0 .518-.056a2.524 2.524 0 0 0 .46-.146a2.426 2.426 0 0 0 .394-.213a2.394 2.394 0 0 0 .329-.263l.065.53H24v-4.829h-.976l-.068.533a2.498 2.498 0 0 0-.322-.26a2.25 2.25 0 0 0-.394-.217a2.616 2.616 0 0 0-.462-.145a2.404 2.404 0 0 0-.521-.056a2.69 2.69 0 0 0-.038 0zm-12.375.844v4.138h1.113V11.01zm2.77 0v4.138h1.114V11.01zm9.72.145a1.592 1.592 0 0 1 .024 0a1.557 1.557 0 0 1 1.09.458a1.56 1.56 0 0 1 .458 1.095a1.56 1.56 0 0 1-.458 1.095a1.557 1.557 0 0 1-1.09.458a1.592 1.592 0 0 1-.024 0a1.557 1.557 0 0 1-1.09-.458a1.56 1.56 0 0 1-.458-1.095a1.56 1.56 0 0 1 .458-1.095a1.557 1.557 0 0 1 1.09-.458z"
+                  />
+                </svg>
+              </i>
+            </a>
+            <a
+              href="https://www.instagram.com/naoya6202/"
+              target="_blank"
+              class="text-white hover:text-gray-400 text-2xl"
+              ><i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/nao-United92"
+              target="_blank"
+              class="text-white hover:text-gray-400 text-2xl"
+              ><i class="fa"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 432 416"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M213.5 0q88.5 0 151 62.5T427 213q0 70-41 125.5T281 416q-14 2-14-11v-58q0-27-15-40q44-5 70.5-27t26.5-77q0-34-22-58q11-26-2-57q-18-5-58 22q-26-7-54-7t-53 7q-18-12-32.5-17.5T107 88h-6q-12 31-2 57q-22 24-22 58q0 55 27 77t70 27q-11 10-13 29q-42 18-62-18q-12-20-33-22q-2 0-4.5.5t-5 3.5t8.5 9q14 7 23 31q1 2 2 4.5t6.5 9.5t13 10.5T130 371t30-2v36q0 13-14 11q-64-22-105-77.5T0 213q0-88 62.5-150.5T213.5 0z"
+                  />
+                </svg>
+              </i>
+            </a>
+            <a
+              href="https://www.linkedin.com/feed/"
+              target="_blank"
+              class="text-white hover:text-gray-400 text-2xl"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
